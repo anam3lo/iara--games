@@ -1,0 +1,138 @@
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    padding: 2.3vh;
+    margin: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(122, 78, 148);
+}
+
+main{
+    padding-top: 80px;
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: rgb(77, 40, 98);
+    transition: 0.8s;
+}
+
+.selected{
+    color: rgb(77, 40, 98);
+}
+
+h2{
+    font-size: 26px;
+    text-align: center;
+    margin: 2%;
+    width: 120px;
+}
+
+.lista{ 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0 3vw;
+}
+
+.lista-jogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vh;
+}
+
+.lista-jogos h2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #ccc;
+    transition: 0.3s;
+    height: 50vh;
+    padding: 5vh;
+}
+
+.game:hover{
+    transform: scale(1.02);
+}
+
+.game p {
+    height: 50%;
+}
+
+.game img {
+    /* width: 20vw; */
+    height: 20vh;
+    width: 20vw;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.game h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.lista a:link,
+.lista a:visited{
+    text-decoration: none;
+    color: rgb(77, 40, 98);
+}
+
+.lista a:hover{
+    transition: 0.3s;
+    font-size: 20px;
+    color: rgb(28, 9, 39);
+}
+
+footer {
+    background-color: rgb(122, 78, 148);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
